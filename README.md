@@ -38,6 +38,9 @@ This web application is built using Vue.js to view and manage estate listings. I
 
 9. **Pagination**: I included a pagination feature. It is managed by the `PaginationStore` to control the number of listings displayed per page.
 
+10. **CORS**: Since the provided JSON data endpoint faced CORS restrictions, I uploaded the data as a blob to my Azure account so that the frontend application could access the data when hosted on Azure Web App. 
+URL: https://estatedatarenan.blob.core.windows.net/estate-data/estate-data.json
+
 ## Usage
 
 To run the application, follow these steps:
