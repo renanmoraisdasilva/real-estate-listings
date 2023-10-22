@@ -8,7 +8,7 @@ import type { EstateResponse } from "@/interfaces/Estate"
 const estateStore = useEstateStore()
 estateStore.$reset()
 
-Axios.get("https://s3.us-west-2.amazonaws.com/cdn.number8.com/LA/listings.json")
+Axios.get(import.meta.env.VITE_ESTATE_API_URL)
   .then((response: EstateResponse) => {
     estateStore.setEstateData(response.data)
   })
