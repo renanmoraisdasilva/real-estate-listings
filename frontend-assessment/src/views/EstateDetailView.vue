@@ -20,7 +20,7 @@ const getEstateData = async () => {
   const estateId = Number(route.params.id)
   try {
     const response = await Axios.get(
-      "https://s3.us-west-2.amazonaws.com/cdn.number8.com/LA/listings.json"
+      import.meta.env.VITE_ESTATE_API_URL
     )
     estateStore.setEstateData(response.data)
     estate.value = estateStore.getEstateById(estateId)
