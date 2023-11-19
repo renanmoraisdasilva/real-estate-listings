@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > renders correctly 1`] = `
+"<footer>
+  <nav>
+    <div>
+      <h1>Real Estate Listings</h1>
+      <p>123 Main Street</p>
+      <p>City, State ZIP</p>
+    </div>
+    <div>
+      <h2>Contact Us</h2>
+      <p>Phone: 555-555-5555</p>
+      <p>Email: info@company.com</p>
+    </div>
+    <div>
+      <h2>Follow Us</h2><a href=\\"#\\">Facebook</a><a href=\\"#\\">Twitter</a><a href=\\"#\\">Instagram</a>
+    </div>
+  </nav>
+</footer>"
+`;
