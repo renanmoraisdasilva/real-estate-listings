@@ -7,14 +7,12 @@
   font-weight: normal;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    padding-top: 80px;
-  }
+body {
+  display: flex;
+  padding-top: 80px;
+}
 
-  #app {
-    justify-content: center;
-    padding: 0 2rem;
-  }
+#app {
+  justify-content: center;
+  padding: 0 2rem;
 }
