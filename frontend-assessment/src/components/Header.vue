@@ -5,6 +5,7 @@
         <v-icon color="#333" start icon="mdi-home-silo" />
         <h1>Real Estate Listings</h1></RouterLink
       >
+<RouterLink to="/testing">Testing</RouterLink>
       <v-btn color="teal-lighten-1" @click="openModal">
         <v-icon start icon="mdi-heart-outline" />{{ modalStore.getTitle }}
       </v-btn>
